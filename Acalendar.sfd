@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1486464421
-ModificationTime: 1486474993
+ModificationTime: 1486475450
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -1220,92 +1220,92 @@ EndChar
 
 StartChar: mon
 Encoding: 278 -1 56
-Width: 428
-VWidth: 179
+Width: 471
+VWidth: 197
 Flags: W
 LayerCount: 2
 Fore
-Refer: 17 77 S 0.6 0 0 0.6 0 0 2
-Refer: 25 79 N 0.6 0 0 0.6 155 0 2
-Refer: 13 78 N 0.6 0 0 0.6 298 0 2
+Refer: 17 77 S 0.66 0 0 0.66 0 0 2
+Refer: 25 79 N 0.66 0 0 0.66 171 0 2
+Refer: 13 78 N 0.66 0 0 0.66 328 0 2
 Comment: "."
 EndChar
 
 StartChar: tue
 Encoding: 279 -1 57
-Width: 349
-VWidth: 179
+Width: 384
+VWidth: 197
 Flags: W
 LayerCount: 2
 Fore
-Refer: 27 84 S 0.6 0 0 0.6 0 0 2
-Refer: 21 85 N 0.6 0 0 0.6 118 0 2
-Refer: 15 69 N 0.6 0 0 0.6 242 0 2
+Refer: 27 84 S 0.66 0 0 0.66 0 0 2
+Refer: 21 85 N 0.66 0 0 0.66 129 0 2
+Refer: 15 69 N 0.66 0 0 0.66 267 0 2
 Comment: "."
 EndChar
 
 StartChar: wed
 Encoding: 280 -1 58
-Width: 403
-VWidth: 179
+Width: 444
+VWidth: 197
 Flags: W
 LayerCount: 2
 Fore
-Refer: 30 87 N 0.6 0 0 0.6 0 0 2
-Refer: 15 69 N 0.6 0 0 0.6 173 0 2
-Refer: 29 68 N 0.6 0 0 0.6 280 0 2
+Refer: 30 87 N 0.66 0 0 0.66 0 0 2
+Refer: 15 69 N 0.66 0 0 0.66 191 0 2
+Refer: 29 68 N 0.66 0 0 0.66 308 0 2
 Comment: "."
 EndChar
 
 StartChar: thu
 Encoding: 281 -1 59
-Width: 372
-VWidth: 179
+Width: 409
+VWidth: 197
 Flags: W
 LayerCount: 2
 Fore
-Refer: 27 84 S 0.6 0 0 0.6 0 0 2
-Refer: 31 72 N 0.6 0 0 0.6 118 0 2
-Refer: 21 85 N 0.6 0 0 0.6 248 0 2
+Refer: 27 84 S 0.66 0 0 0.66 0 0 2
+Refer: 31 72 N 0.66 0 0 0.66 129 0 2
+Refer: 21 85 N 0.66 0 0 0.66 273 0 2
 Comment: "."
 EndChar
 
 StartChar: fri
 Encoding: 282 -1 60
-Width: 277
-VWidth: 179
+Width: 305
+VWidth: 197
 Flags: W
 LayerCount: 2
 Fore
-Refer: 14 70 S 0.6 0 0 0.6 0 0 2
-Refer: 18 82 N 0.6 0 0 0.6 104 0 2
-Refer: 32 73 N 0.6 0 0 0.6 218 0 2
+Refer: 14 70 S 0.66 0 0 0.66 0 0 2
+Refer: 18 82 N 0.66 0 0 0.66 114 0 2
+Refer: 32 73 N 0.66 0 0 0.66 240 0 2
 Comment: "."
 EndChar
 
 StartChar: sat
 Encoding: 283 -1 61
-Width: 349
-VWidth: 179
+Width: 384
+VWidth: 197
 Flags: W
 LayerCount: 2
 Fore
-Refer: 24 83 S 0.6 0 0 0.6 0 0 2
-Refer: 12 65 N 0.6 0 0 0.6 105 0 2
-Refer: 27 84 N 0.6 0 0 0.6 232 0 2
+Refer: 24 83 S 0.66 0 0 0.66 0 0 2
+Refer: 12 65 N 0.66 0 0 0.66 116 0 2
+Refer: 27 84 N 0.66 0 0 0.66 255 0 2
 Comment: "."
 EndChar
 
 StartChar: sun
 Encoding: 284 -1 62
-Width: 360
-VWidth: 179
+Width: 396
+VWidth: 197
 Flags: W
 LayerCount: 2
 Fore
-Refer: 24 83 S 0.6 0 0 0.6 0 0 2
-Refer: 21 85 N 0.6 0 0 0.6 105 0 2
-Refer: 13 78 N 0.6 0 0 0.6 230 0 2
+Refer: 24 83 S 0.66 0 0 0.66 0 0 2
+Refer: 21 85 N 0.66 0 0 0.66 116 0 2
+Refer: 13 78 N 0.66 0 0 0.66 253 0 2
 Comment: "."
 EndChar
 
@@ -1611,7 +1611,7 @@ EndChar
 StartChar: row_week
 Encoding: 307 -1 85
 Width: 2048
-VWidth: 0
+VWidth: 179
 LayerCount: 2
 Comment: "."
 EndChar

@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1486464421
-ModificationTime: 1486476689
+ModificationTime: 1486478206
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -733,11 +733,11 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 264 12 6
+WinInfo: 312 12 6
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 336 114
+BeginChars: 376 154
 
 StartChar: one
 Encoding: 49 49 0
@@ -2315,7 +2315,7 @@ VWidth: 1434
 Flags: W
 LayerCount: 2
 Fore
-Refer: 85 -1 S 1 0 0 1 0 1475 2
+Refer: 85 -1 N 1 0 0 1 0 1475 2
 Refer: 75 -1 N 1 0 0 1 122 295 2
 Refer: 76 -1 N 1 0 0 1 622 295 2
 Refer: 77 -1 N 1 0 0 1 1122 295 2
@@ -2459,7 +2459,7 @@ VWidth: 1139
 Flags: W
 LayerCount: 2
 Fore
-Refer: 85 -1 S 1 0 0 1 0 1475 2
+Refer: 85 -1 N 1 0 0 1 0 1475 2
 Refer: 82 -1 N 1 0 0 1 622 0 2
 Refer: 81 -1 N 1 0 0 1 122 0 2
 Refer: 76 -1 N 1 0 0 1 1122 295 2
@@ -2809,6 +2809,446 @@ Refer: 78 -1 N 1 0 0 1 1122 0 2
 Refer: 79 -1 N 1 0 0 1 1622 0 2
 Refer: 80 -1 N 1 0 0 1 2122 0 2
 Refer: 81 -1 N 1 0 0 1 2622 0 2
+Comment: "."
+EndChar
+
+StartChar: zero_0mod4
+Encoding: 336 -1 114
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1 48 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: one_0mod4
+Encoding: 337 -1 115
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 49 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: two_0mod4
+Encoding: 338 -1 116
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 50 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: three_0mod4
+Encoding: 339 -1 117
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3 51 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: four_0mod4
+Encoding: 340 -1 118
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 4 52 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: five_0mod4
+Encoding: 341 -1 119
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 5 53 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: six_0mod4
+Encoding: 342 -1 120
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 6 54 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: seven_0mod4
+Encoding: 343 -1 121
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 7 55 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: eight_0mod4
+Encoding: 344 -1 122
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 8 56 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: nine_0mod4
+Encoding: 345 -1 123
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 9 57 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: zero_1mod4
+Encoding: 346 -1 124
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1 48 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: one_1mod4
+Encoding: 347 -1 125
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 49 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: two_1mod4
+Encoding: 348 -1 126
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 50 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: three_1mod4
+Encoding: 349 -1 127
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3 51 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: four_1mod4
+Encoding: 350 -1 128
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 4 52 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: five_1mod4
+Encoding: 351 -1 129
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 5 53 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: six_1mod4
+Encoding: 352 -1 130
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 6 54 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: seven_1mod4
+Encoding: 353 -1 131
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 7 55 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: eight_1mod4
+Encoding: 354 -1 132
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 8 56 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: nine_1mod4
+Encoding: 355 -1 133
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 9 57 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: zero_2mod4
+Encoding: 356 -1 134
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1 48 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: one_2mod4
+Encoding: 357 -1 135
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 49 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: two_2mod4
+Encoding: 358 -1 136
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 50 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: three_2mod4
+Encoding: 359 -1 137
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3 51 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: four_2mod4
+Encoding: 360 -1 138
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 4 52 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: five_2mod4
+Encoding: 361 -1 139
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 5 53 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: six_2mod4
+Encoding: 362 -1 140
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 6 54 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: seven_2mod4
+Encoding: 363 -1 141
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 7 55 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: eight_2mod4
+Encoding: 364 -1 142
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 8 56 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: nine_2mod4
+Encoding: 365 -1 143
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 9 57 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: zero_3mod4
+Encoding: 366 -1 144
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1 48 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: one_3mod4
+Encoding: 367 -1 145
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 49 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: two_3mod4
+Encoding: 368 -1 146
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 50 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: three_3mod4
+Encoding: 369 -1 147
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3 51 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: four_3mod4
+Encoding: 370 -1 148
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 4 52 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: five_3mod4
+Encoding: 371 -1 149
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 5 53 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: six_3mod4
+Encoding: 372 -1 150
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 6 54 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: seven_3mod4
+Encoding: 373 -1 151
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 7 55 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: eight_3mod4
+Encoding: 374 -1 152
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 8 56 N 1 0 0 1 0 0 2
+Comment: "."
+EndChar
+
+StartChar: nine_3mod4
+Encoding: 375 -1 153
+Width: 189
+VWidth: 299
+Flags: W
+LayerCount: 2
+Fore
+Refer: 9 57 N 1 0 0 1 0 0 2
 Comment: "."
 EndChar
 EndChars

@@ -118,3 +118,17 @@ six_3mod4
 seven_3mod4
 eight_3mod4
 nine_3mod4
+slash_mon_comm
+slash_tue_comm
+slash_wed_comm
+slash_thu_comm
+slash_fri_comm
+slash_sat_comm
+slash_sun_comm
+slash_mon_leap
+slash_tue_leap
+slash_wed_leap
+slash_thu_leap
+slash_fri_leap
+slash_sat_leap
+slash_sun_leap

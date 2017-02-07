@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1486464421
-ModificationTime: 1486474818
+ModificationTime: 1486474993
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -1220,92 +1220,92 @@ EndChar
 
 StartChar: mon
 Encoding: 278 -1 56
-Width: 714
-VWidth: 299
+Width: 428
+VWidth: 179
 Flags: W
 LayerCount: 2
 Fore
-Refer: 17 77 S 1 0 0 1 0 0 2
-Refer: 25 79 N 1 0 0 1 259 0 2
-Refer: 13 78 N 1 0 0 1 497 0 2
+Refer: 17 77 S 0.6 0 0 0.6 0 0 2
+Refer: 25 79 N 0.6 0 0 0.6 155 0 2
+Refer: 13 78 N 0.6 0 0 0.6 298 0 2
 Comment: "."
 EndChar
 
 StartChar: tue
 Encoding: 279 -1 57
-Width: 582
-VWidth: 299
+Width: 349
+VWidth: 179
 Flags: W
 LayerCount: 2
 Fore
-Refer: 27 84 S 1 0 0 1 0 0 2
-Refer: 21 85 N 1 0 0 1 196 0 2
-Refer: 15 69 N 1 0 0 1 404 0 2
+Refer: 27 84 S 0.6 0 0 0.6 0 0 2
+Refer: 21 85 N 0.6 0 0 0.6 118 0 2
+Refer: 15 69 N 0.6 0 0 0.6 242 0 2
 Comment: "."
 EndChar
 
 StartChar: wed
 Encoding: 280 -1 58
-Width: 673
-VWidth: 299
+Width: 403
+VWidth: 179
 Flags: W
 LayerCount: 2
 Fore
-Refer: 30 87 N 1 0 0 1 0 0 2
-Refer: 15 69 N 1 0 0 1 289 0 2
-Refer: 29 68 N 1 0 0 1 467 0 2
+Refer: 30 87 N 0.6 0 0 0.6 0 0 2
+Refer: 15 69 N 0.6 0 0 0.6 173 0 2
+Refer: 29 68 N 0.6 0 0 0.6 280 0 2
 Comment: "."
 EndChar
 
 StartChar: thu
 Encoding: 281 -1 59
-Width: 621
-VWidth: 299
+Width: 372
+VWidth: 179
 Flags: W
 LayerCount: 2
 Fore
-Refer: 27 84 S 1 0 0 1 0 0 2
-Refer: 31 72 N 1 0 0 1 196 0 2
-Refer: 21 85 N 1 0 0 1 413 0 2
+Refer: 27 84 S 0.6 0 0 0.6 0 0 2
+Refer: 31 72 N 0.6 0 0 0.6 118 0 2
+Refer: 21 85 N 0.6 0 0 0.6 248 0 2
 Comment: "."
 EndChar
 
 StartChar: fri
 Encoding: 282 -1 60
-Width: 463
-VWidth: 299
+Width: 277
+VWidth: 179
 Flags: W
 LayerCount: 2
 Fore
-Refer: 14 70 S 1 0 0 1 0 0 2
-Refer: 18 82 N 1 0 0 1 173 0 2
-Refer: 32 73 N 1 0 0 1 363 0 2
+Refer: 14 70 S 0.6 0 0 0.6 0 0 2
+Refer: 18 82 N 0.6 0 0 0.6 104 0 2
+Refer: 32 73 N 0.6 0 0 0.6 218 0 2
 Comment: "."
 EndChar
 
 StartChar: sat
 Encoding: 283 -1 61
-Width: 582
-VWidth: 299
+Width: 349
+VWidth: 179
 Flags: W
 LayerCount: 2
 Fore
-Refer: 24 83 S 1 0 0 1 0 0 2
-Refer: 12 65 N 1 0 0 1 175 0 2
-Refer: 27 84 N 1 0 0 1 386 0 2
+Refer: 24 83 S 0.6 0 0 0.6 0 0 2
+Refer: 12 65 N 0.6 0 0 0.6 105 0 2
+Refer: 27 84 N 0.6 0 0 0.6 232 0 2
 Comment: "."
 EndChar
 
 StartChar: sun
 Encoding: 284 -1 62
-Width: 600
-VWidth: 299
+Width: 360
+VWidth: 179
 Flags: W
 LayerCount: 2
 Fore
-Refer: 24 83 S 1 0 0 1 0 0 2
-Refer: 21 85 N 1 0 0 1 175 0 2
-Refer: 13 78 N 1 0 0 1 383 0 2
+Refer: 24 83 S 0.6 0 0 0.6 0 0 2
+Refer: 21 85 N 0.6 0 0 0.6 105 0 2
+Refer: 13 78 N 0.6 0 0 0.6 230 0 2
 Comment: "."
 EndChar
 

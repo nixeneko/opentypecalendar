@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1486464421
-ModificationTime: 1486551269
+ModificationTime: 1486556427
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -733,11 +733,11 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 12 6
+WinInfo: 0 10 8
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 412 190
+BeginChars: 412 191
 
 StartChar: one
 Encoding: 49 49 0
@@ -2155,9 +2155,9 @@ VWidth: 1139
 Flags: W
 LayerCount: 2
 Fore
-Refer: 46 -1 N 1 0 0 1 0 0 2
-Refer: 39 -1 N 1 0 0 1 0 295 2
-Refer: 8 56 N 1 0 0 1 189 590 2
+Refer: 46 -1 S 1 0 0 1 0 0 2
+Refer: 39 -1 S 1 0 0 1 0 295 2
+Refer: 8 56 S 1 0 0 1 189 590 2
 Refer: 0 49 S 1 0 0 1 189 885 2
 Comment: "."
 EndChar
@@ -2169,9 +2169,9 @@ VWidth: 1139
 Flags: W
 LayerCount: 2
 Fore
-Refer: 47 -1 N 1 0 0 1 0 0 2
-Refer: 40 -1 N 1 0 0 1 0 295 2
-Refer: 9 57 N 1 0 0 1 189 590 2
+Refer: 47 -1 S 1 0 0 1 0 0 2
+Refer: 40 -1 S 1 0 0 1 0 295 2
+Refer: 9 57 S 1 0 0 1 189 590 2
 Refer: 2 50 S 1 0 0 1 189 885 2
 Comment: "."
 EndChar
@@ -2183,9 +2183,9 @@ VWidth: 1139
 Flags: W
 LayerCount: 2
 Fore
-Refer: 48 -1 N 1 0 0 1 0 0 2
-Refer: 41 -1 N 1 0 0 1 0 295 2
-Refer: 34 -1 N 1 0 0 1 0 590 2
+Refer: 48 -1 S 1 0 0 1 0 0 2
+Refer: 41 -1 S 1 0 0 1 0 295 2
+Refer: 34 -1 S 1 0 0 1 0 590 2
 Refer: 3 51 S 1 0 0 1 189 885 2
 Comment: "."
 EndChar
@@ -2197,9 +2197,9 @@ VWidth: 1139
 Flags: W
 LayerCount: 2
 Fore
-Refer: 49 -1 N 1 0 0 1 0 0 2
-Refer: 42 -1 N 1 0 0 1 0 295 2
-Refer: 35 -1 N 1 0 0 1 0 590 2
+Refer: 49 -1 S 1 0 0 1 0 0 2
+Refer: 42 -1 S 1 0 0 1 0 295 2
+Refer: 35 -1 S 1 0 0 1 0 590 2
 Refer: 4 52 S 1 0 0 1 189 885 2
 Comment: "."
 EndChar
@@ -2211,9 +2211,9 @@ VWidth: 1139
 Flags: W
 LayerCount: 2
 Fore
-Refer: 50 -1 N 1 0 0 1 0 0 2
-Refer: 43 -1 N 1 0 0 1 0 295 2
-Refer: 36 -1 N 1 0 0 1 0 590 2
+Refer: 50 -1 S 1 0 0 1 0 0 2
+Refer: 43 -1 S 1 0 0 1 0 295 2
+Refer: 36 -1 S 1 0 0 1 0 590 2
 Refer: 5 53 S 1 0 0 1 189 885 2
 Comment: "."
 EndChar
@@ -2225,9 +2225,9 @@ VWidth: 1139
 Flags: W
 LayerCount: 2
 Fore
-Refer: 51 -1 N 1 0 0 1 0 0 2
-Refer: 44 -1 N 1 0 0 1 0 295 2
-Refer: 37 -1 N 1 0 0 1 0 590 2
+Refer: 51 -1 S 1 0 0 1 0 0 2
+Refer: 44 -1 S 1 0 0 1 0 295 2
+Refer: 37 -1 S 1 0 0 1 0 590 2
 Refer: 6 54 S 1 0 0 1 189 885 2
 Comment: "."
 EndChar
@@ -2239,10 +2239,10 @@ VWidth: 1139
 Flags: W
 LayerCount: 2
 Fore
-Refer: 52 -1 N 1 0 0 1 0 0 2
-Refer: 45 -1 N 1 0 0 1 0 295 2
-Refer: 38 -1 N 1 0 0 1 0 590 2
-Refer: 7 55 N 1 0 0 1 189 885 2
+Refer: 52 -1 S 1 0 0 1 0 0 2
+Refer: 45 -1 S 1 0 0 1 0 295 2
+Refer: 38 -1 S 1 0 0 1 0 590 2
+Refer: 7 55 S 1 0 0 1 189 885 2
 Comment: "."
 EndChar
 
@@ -2298,13 +2298,13 @@ VWidth: 197
 Flags: W
 LayerCount: 2
 Fore
-Refer: 62 -1 N 1 0 0 1 104 0 2
-Refer: 56 -1 N 1 0 0 1 529 0 2
-Refer: 57 -1 N 1 0 0 1 1116 0 2
-Refer: 58 -1 N 1 0 0 1 1554 0 2
-Refer: 59 -1 N 1 0 0 1 2091 0 2
-Refer: 60 -1 N 1 0 0 1 2695 0 2
-Refer: 61 -1 N 1 0 0 1 3116 0 2
+Refer: 62 -1 S 1 0 0 1 104 0 2
+Refer: 56 -1 S 1 0 0 1 529 0 2
+Refer: 57 -1 S 1 0 0 1 1116 0 2
+Refer: 58 -1 S 1 0 0 1 1554 0 2
+Refer: 59 -1 S 1 0 0 1 2091 0 2
+Refer: 60 -1 S 1 0 0 1 2695 0 2
+Refer: 61 -1 S 1 0 0 1 3116 0 2
 Comment: "."
 EndChar
 
@@ -2315,14 +2315,41 @@ VWidth: 1434
 Flags: W
 LayerCount: 2
 Fore
-Refer: 85 -1 N 1 0 0 1 0 1475 2
-Refer: 75 -1 N 1 0 0 1 122 295 2
-Refer: 76 -1 N 1 0 0 1 622 295 2
-Refer: 77 -1 N 1 0 0 1 1122 295 2
-Refer: 78 -1 N 1 0 0 1 1622 295 2
-Refer: 79 -1 N 1 0 0 1 2122 295 2
-Refer: 80 -1 N 1 0 0 1 2622 295 2
-Refer: 81 -1 N 1 0 0 1 3122 295 2
+Refer: 62 -1 N 1 0 0 1 104 1475 2
+Refer: 56 -1 N 1 0 0 1 529 1475 2
+Refer: 57 -1 N 1 0 0 1 1116 1475 2
+Refer: 58 -1 N 1 0 0 1 1554 1475 2
+Refer: 59 -1 N 1 0 0 1 2091 1475 2
+Refer: 60 -1 N 1 0 0 1 2695 1475 2
+Refer: 61 -1 N 1 0 0 1 3116 1475 2
+Refer: 46 -1 N 1 0 0 1 122 295 2
+Refer: 39 -1 N 1 0 0 1 122 590 2
+Refer: 8 56 N 1 0 0 1 311 885 2
+Refer: 0 49 N 1 0 0 1 311 1180 2
+Refer: 47 -1 N 1 0 0 1 622 295 2
+Refer: 40 -1 N 1 0 0 1 622 590 2
+Refer: 9 57 N 1 0 0 1 811 885 2
+Refer: 2 50 N 1 0 0 1 811 1180 2
+Refer: 48 -1 N 1 0 0 1 1122 295 2
+Refer: 41 -1 N 1 0 0 1 1122 590 2
+Refer: 34 -1 N 1 0 0 1 1122 885 2
+Refer: 3 51 N 1 0 0 1 1311 1180 2
+Refer: 49 -1 N 1 0 0 1 1622 295 2
+Refer: 42 -1 N 1 0 0 1 1622 590 2
+Refer: 35 -1 N 1 0 0 1 1622 885 2
+Refer: 4 52 N 1 0 0 1 1811 1180 2
+Refer: 50 -1 N 1 0 0 1 2122 295 2
+Refer: 43 -1 N 1 0 0 1 2122 590 2
+Refer: 36 -1 N 1 0 0 1 2122 885 2
+Refer: 5 53 N 1 0 0 1 2311 1180 2
+Refer: 51 -1 N 1 0 0 1 2622 295 2
+Refer: 44 -1 N 1 0 0 1 2622 590 2
+Refer: 37 -1 N 1 0 0 1 2622 885 2
+Refer: 6 54 N 1 0 0 1 2811 1180 2
+Refer: 52 -1 N 1 0 0 1 3122 295 2
+Refer: 45 -1 N 1 0 0 1 3122 590 2
+Refer: 38 -1 N 1 0 0 1 3122 885 2
+Refer: 7 55 N 1 0 0 1 3311 1180 2
 Comment: "."
 EndChar
 
@@ -2333,7 +2360,13 @@ VWidth: 1139
 Flags: W
 LayerCount: 2
 Fore
-Refer: 85 -1 S 1 0 0 1 0 1475 2
+Refer: 62 -1 N 1 0 0 1 104 1475 2
+Refer: 56 -1 N 1 0 0 1 529 1475 2
+Refer: 57 -1 N 1 0 0 1 1116 1475 2
+Refer: 58 -1 N 1 0 0 1 1554 1475 2
+Refer: 59 -1 N 1 0 0 1 2091 1475 2
+Refer: 60 -1 N 1 0 0 1 2695 1475 2
+Refer: 61 -1 N 1 0 0 1 3116 1475 2
 Refer: 81 -1 N 1 0 0 1 122 0 2
 Refer: 75 -1 N 1 0 0 1 622 295 2
 Refer: 76 -1 N 1 0 0 1 1122 295 2
@@ -3646,6 +3679,14 @@ LayerCount: 2
 Fore
 Refer: 9 57 N 1 0 0 1 90 1780 2
 Comment: "."
+EndChar
+
+StartChar: space
+Encoding: 32 32 190
+Width: 500
+VWidth: 0
+Flags: W
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont

@@ -3,12 +3,12 @@ FontName: Acalendar
 FullName: Acalendar
 FamilyName: Acalendar
 Weight: Regular
-Copyright: Copyright (c) 2017, nixeneko\nOutline: (c) M+ FONTS
+Copyright: OpenType Feature Program: Copyright (c) 2017, nixeneko\nGlyph Outline: Copyright (c) 2016 M+ FONTS PROJECT
 UComments: "2017-2-7: Created with FontForge (http://fontforge.org)"
 Version: 1.000
 ItalicAngle: 0
-UnderlinePosition: -204
-UnderlineWidth: 2048
+UnderlinePosition: -330
+UnderlineWidth: 30
 Ascent: 2000
 Descent: 48
 InvalidEm: 0
@@ -21,25 +21,27 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1486464421
-ModificationTime: 1486556427
+ModificationTime: 1486556805
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 200
 VLineGap: 0
-OS2TypoAscent: 0
-OS2TypoAOffset: 1
+OS2TypoAscent: 2000
+OS2TypoAOffset: 0
 OS2TypoDescent: -295
-OS2TypoDOffset: 1
+OS2TypoDOffset: 0
 OS2TypoLinegap: 200
-OS2WinAscent: 0
-OS2WinAOffset: 1
+OS2WinAscent: 2000
+OS2WinAOffset: 0
 OS2WinDescent: -295
-OS2WinDOffset: 1
-HheadAscent: 0
-HheadAOffset: 1
+OS2WinDOffset: 0
+HheadAscent: 2000
+HheadAOffset: 0
 HheadDescent: -295
-HheadDOffset: 1
+HheadDOffset: 0
+OS2CapHeight: 2000
+OS2XHeight: 1800
 OS2Vendor: 'nxnk'
 MarkAttachClasses: 1
 DEI: 91125

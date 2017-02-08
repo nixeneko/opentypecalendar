@@ -21,24 +21,24 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1486464421
-ModificationTime: 1486549637
+ModificationTime: 1486551269
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
-LineGap: 184
+LineGap: 200
 VLineGap: 0
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
-OS2TypoDescent: 0
+OS2TypoDescent: -295
 OS2TypoDOffset: 1
-OS2TypoLinegap: 184
+OS2TypoLinegap: 200
 OS2WinAscent: 0
 OS2WinAOffset: 1
-OS2WinDescent: 0
+OS2WinDescent: -295
 OS2WinDOffset: 1
 HheadAscent: 0
 HheadAOffset: 1
-HheadDescent: 0
+HheadDescent: -295
 HheadDOffset: 1
 OS2Vendor: 'nxnk'
 MarkAttachClasses: 1
@@ -733,7 +733,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 348 12 6
+WinInfo: 0 12 6
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144

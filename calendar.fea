@@ -10,10 +10,6 @@
 @num_3mod4 = [\zero_3mod4 \one_3mod4 \two_3mod4 \three_3mod4 \four_3mod4 
 	\five_3mod4 \six_3mod4 \seven_3mod4 \eight_3mod4 \nine_3mod4];
 
-@num_all = [@num_normal @num_0mod4 @num_1mod4 @num_2mod4 @num_3mod4
-	@num_year_10000 @num_year_1000 @num_year_100
-	@num_year_10 @num_year_1];
-
 @num_after0or2 = [\zero_0mod4 \one_1mod4 \two_2mod4 \three_3mod4 \four_0mod4
 	\five_1mod4 \six_2mod4 \seven_3mod4 \eight_0mod4 \nine_1mod4];
 @num_after1or3 = [\zero_2mod4 \one_3mod4 \two_0mod4 \three_1mod4 \four_2mod4
@@ -36,6 +32,11 @@
 @num_year_1 = [\zero_1 \one_1 \two_1 \three_1 \four_1
 	\five_1 \six_1 \seven_1 \eight_1 \nine_1];
 
+@num_allmod = [@num_normal @num_0mod4 @num_1mod4 @num_2mod4 @num_3mod4];
+@num_all =  [@num_normal @num_0mod4 @num_1mod4 @num_2mod4 @num_3mod4
+	@num_year_10000 @num_year_1000 @num_year_100
+	@num_year_10 @num_year_1];
+
 @slash = [\hyphen \slash];
 
 @misc = [\slash_mon_comm \slash_tue_comm \slash_wed_comm \slash_thu_comm 
@@ -53,7 +54,7 @@
 	A B C D E F G H I J L M N O P R S T U V W Y];
 	
 lookup check_first_fig_mod4 {
-	ignore substitute @num_all @num_normal';
+	ignore substitute @num_allmod @num_normal';
 	substitute @num_normal' @num_normal @num_normal by @num_after0or2;
 } check_first_fig_mod4;
 
@@ -917,7 +918,7 @@ lookup replace_month {
 } replace_month;
 
 lookup replace_year_10000 {
-	ignore substitute @num_all @num_all';
+	ignore substitute @num_all @num_allmod';
 	substitute @num_normal' by @num_year_10000;
 	substitute @num_0mod4'  by @num_year_10000;
 	substitute @num_1mod4'  by @num_year_10000;
@@ -925,37 +926,33 @@ lookup replace_year_10000 {
 	substitute @num_3mod4'  by @num_year_10000;
 } replace_year_10000;
 
-lookup replace_year_1000 {
+lookup replace_year {
 	substitute @num_year_10000 @num_normal' by @num_year_1000;
 	substitute @num_year_10000 @num_0mod4'  by @num_year_1000;
 	substitute @num_year_10000 @num_1mod4'  by @num_year_1000;
 	substitute @num_year_10000 @num_2mod4'  by @num_year_1000;
 	substitute @num_year_10000 @num_3mod4'  by @num_year_1000;
-} replace_year_1000;
-
-lookup replace_year_100 {
 	substitute @num_year_1000 @num_normal' by @num_year_100;
 	substitute @num_year_1000 @num_0mod4'  by @num_year_100;
 	substitute @num_year_1000 @num_1mod4'  by @num_year_100;
 	substitute @num_year_1000 @num_2mod4'  by @num_year_100;
 	substitute @num_year_1000 @num_3mod4'  by @num_year_100;
-} replace_year_100;
-
-lookup replace_year_10 {
 	substitute @num_year_100 @num_normal' by @num_year_10;
 	substitute @num_year_100 @num_0mod4'  by @num_year_10;
 	substitute @num_year_100 @num_1mod4'  by @num_year_10;
 	substitute @num_year_100 @num_2mod4'  by @num_year_10;
 	substitute @num_year_100 @num_3mod4'  by @num_year_10;
-} replace_year_10;
-
-lookup replace_year_1 {
 	substitute @num_year_10 @num_normal' by @num_year_1;
 	substitute @num_year_10 @num_0mod4'  by @num_year_1;
 	substitute @num_year_10 @num_1mod4'  by @num_year_1;
 	substitute @num_year_10 @num_2mod4'  by @num_year_1;
 	substitute @num_year_10 @num_3mod4'  by @num_year_1;
-} replace_year_1;
+	substitute @num_year_1  @num_normal' by @num_year_1;
+	substitute @num_year_1  @num_0mod4'  by @num_year_1;
+	substitute @num_year_1  @num_1mod4'  by @num_year_1;
+	substitute @num_year_1  @num_2mod4'  by @num_year_1;
+	substitute @num_year_1  @num_3mod4'  by @num_year_1;
+} replace_year;
 
 feature liga{
 	languagesystem DFLT dflt;
@@ -967,10 +964,7 @@ feature liga{
 	lookup replace_calendar;
 	lookup replace_month;
 	lookup replace_year_10000;
-	lookup replace_year_1000;
-	lookup replace_year_100;
-	lookup replace_year_10;
-	lookup replace_year_1;
+	lookup replace_year;
 } liga;
 
 markClass @num_year_1 <anchor 0 0> @YEAR_RIGHT;

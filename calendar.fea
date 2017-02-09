@@ -980,8 +980,7 @@ feature mkmk{
 	lookup STACK_YEAR;
 } mkmk;
 
-@BASE = [ @num_normal @num_0mod4 @num_1mod4 @num_2mod4 @num_3mod4 
-	@num_after0or2 @num_after1or3 @calendar @slash @misc];
+@BASE = [ @num_all @calendar @slash @misc];
 @MARKS = [ @YEAR_RIGHT ];
 
 table GDEF {

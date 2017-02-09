@@ -10,7 +10,9 @@
 @num_3mod4 = [\zero_3mod4 \one_3mod4 \two_3mod4 \three_3mod4 \four_3mod4 
 	\five_3mod4 \six_3mod4 \seven_3mod4 \eight_3mod4 \nine_3mod4];
 
-@num_all = [@num_normal @num_0mod4 @num_1mod4 @num_2mod4 @num_3mod4];
+@num_all = [@num_normal @num_0mod4 @num_1mod4 @num_2mod4 @num_3mod4
+	@num_year_10000 @num_year_1000 @num_year_100
+	@num_year_10 @num_year_1];
 
 @num_after0or2 = [\zero_0mod4 \one_1mod4 \two_2mod4 \three_3mod4 \four_0mod4
 	\five_1mod4 \six_2mod4 \seven_3mod4 \eight_0mod4 \nine_1mod4];
@@ -23,8 +25,16 @@
 	\cal_wed_30 \cal_thu_30 \cal_fri_30 \cal_sat_30 \cal_sun_31 \cal_mon_31
 	\cal_tue_31 \cal_wed_31 \cal_thu_31 \cal_fri_31 \cal_sat_31];
 
-@num_year = [\zero_year \one_year \two_year \three_year \four_year
-	\five_year \six_year \seven_year \eight_year \nine_year];
+@num_year_10000 = [\zero_10000 \one_10000 \two_10000 \three_10000 \four_10000
+	\five_10000 \six_10000 \seven_10000 \eight_10000 \nine_10000];
+@num_year_1000 = [\zero_1000 \one_1000 \two_1000 \three_1000 \four_1000
+	\five_1000 \six_1000 \seven_1000 \eight_1000 \nine_1000];
+@num_year_100 = [\zero_100 \one_100 \two_100 \three_100 \four_100
+	\five_100 \six_100 \seven_100 \eight_100 \nine_100];
+@num_year_10 = [\zero_10 \one_10 \two_10 \three_10 \four_10
+	\five_10 \six_10 \seven_10 \eight_10 \nine_10];
+@num_year_1 = [\zero_1 \one_1 \two_1 \three_1 \four_1
+	\five_1 \six_1 \seven_1 \eight_1 \nine_1];
 
 @slash = [\hyphen \slash];
 
@@ -32,7 +42,15 @@
 	\slash_fri_comm \slash_sat_comm \slash_sun_comm \slash_mon_leap \slash_tue_leap
 	\slash_wed_leap \slash_thu_leap \slash_fri_leap \slash_sat_leap \slash_sun_leap 
 	\january \february \march \april \may_month \june 
-	\july \august \september \october \november \december];
+	\july \august \september \october \november \december
+	\sun \mon \tue \wed \thu \fri \sat
+	\jan \feb \mar \apr \may \jun \jul \aug \sep \oct \nov \dec
+	\ten \eleven \twelve \thirteen \fourteen \fifteen \sixteen \seventeen \eighteen
+	\nineteen \twenty \twentyone \twentytwo \twentythree \twentyfour \twentyfive
+	\twentysix \twentyseven \twentyeight \twentynine \thirty \thirtyone
+	\col4_1 \col4_2 \col4_3 \col4_4 \col4_5 \col4_6 \col4_7 \col5_1 \col5_2 \col5_2
+	\row_week 
+	A B C D E F G H I J L M N O P R S T U V W Y];
 	
 lookup check_first_fig_mod4 {
 	ignore substitute @num_all @num_normal';
@@ -898,13 +916,46 @@ lookup replace_month {
 	substitute @calendar \nine'  lookup MONTH_SUBS;
 } replace_month;
 
-lookup replace_year {
-	substitute @num_normal by @num_year;
-	substitute @num_0mod4  by @num_year;
-	substitute @num_1mod4  by @num_year;
-	substitute @num_2mod4  by @num_year;
-	substitute @num_3mod4  by @num_year;
-} replace_year;
+lookup replace_year_10000 {
+	ignore substitute @num_all @num_all';
+	substitute @num_normal' by @num_year_10000;
+	substitute @num_0mod4'  by @num_year_10000;
+	substitute @num_1mod4'  by @num_year_10000;
+	substitute @num_2mod4'  by @num_year_10000;
+	substitute @num_3mod4'  by @num_year_10000;
+} replace_year_10000;
+
+lookup replace_year_1000 {
+	substitute @num_year_10000 @num_normal' by @num_year_1000;
+	substitute @num_year_10000 @num_0mod4'  by @num_year_1000;
+	substitute @num_year_10000 @num_1mod4'  by @num_year_1000;
+	substitute @num_year_10000 @num_2mod4'  by @num_year_1000;
+	substitute @num_year_10000 @num_3mod4'  by @num_year_1000;
+} replace_year_1000;
+
+lookup replace_year_100 {
+	substitute @num_year_1000 @num_normal' by @num_year_100;
+	substitute @num_year_1000 @num_0mod4'  by @num_year_100;
+	substitute @num_year_1000 @num_1mod4'  by @num_year_100;
+	substitute @num_year_1000 @num_2mod4'  by @num_year_100;
+	substitute @num_year_1000 @num_3mod4'  by @num_year_100;
+} replace_year_100;
+
+lookup replace_year_10 {
+	substitute @num_year_100 @num_normal' by @num_year_10;
+	substitute @num_year_100 @num_0mod4'  by @num_year_10;
+	substitute @num_year_100 @num_1mod4'  by @num_year_10;
+	substitute @num_year_100 @num_2mod4'  by @num_year_10;
+	substitute @num_year_100 @num_3mod4'  by @num_year_10;
+} replace_year_10;
+
+lookup replace_year_1 {
+	substitute @num_year_10 @num_normal' by @num_year_1;
+	substitute @num_year_10 @num_0mod4'  by @num_year_1;
+	substitute @num_year_10 @num_1mod4'  by @num_year_1;
+	substitute @num_year_10 @num_2mod4'  by @num_year_1;
+	substitute @num_year_10 @num_3mod4'  by @num_year_1;
+} replace_year_1;
 
 feature liga{
 	languagesystem DFLT dflt;
@@ -915,13 +966,17 @@ feature liga{
 	lookup check_firstday_and_leapyear;
 	lookup replace_calendar;
 	lookup replace_month;
-	lookup replace_year;
+	lookup replace_year_10000;
+	lookup replace_year_1000;
+	lookup replace_year_100;
+	lookup replace_year_10;
+	lookup replace_year_1;
 } liga;
 
-markClass @num_year <anchor 0 0> @YEAR_RIGHT;
+markClass @num_year_1 <anchor 0 0> @YEAR_RIGHT;
 lookup STACK_YEAR {
 	lookupflag MarkAttachmentType @YEAR_RIGHT;
-	pos mark @num_year <anchor 189 0> mark @YEAR_RIGHT;
+	pos mark @num_year_1 <anchor 189 0> mark @YEAR_RIGHT;
 } STACK_YEAR;
 
 feature mkmk{
@@ -932,7 +987,7 @@ feature mkmk{
 } mkmk;
 
 @BASE = [ @num_normal @num_0mod4 @num_1mod4 @num_2mod4 @num_3mod4 
-	@num_after0or2 @num_after1or3 @calendar @num_year @misc];
+	@num_after0or2 @num_after1or3 @calendar @slash @misc];
 @MARKS = [ @YEAR_RIGHT ];
 
 table GDEF {

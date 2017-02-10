@@ -35,7 +35,7 @@
 @num_allmod = [@num_normal @num_0mod4 @num_1mod4 @num_2mod4 @num_3mod4];
 @num_all =  [@num_normal @num_0mod4 @num_1mod4 @num_2mod4 @num_3mod4
 	@num_year_10000 @num_year_1000 @num_year_100
-	@num_year_10 @num_year_1];
+	@num_year_10];
 
 @slash = [\hyphen \slash];
 
@@ -947,11 +947,11 @@ lookup replace_year {
 	substitute @num_year_10 @num_1mod4'  by @num_year_1;
 	substitute @num_year_10 @num_2mod4'  by @num_year_1;
 	substitute @num_year_10 @num_3mod4'  by @num_year_1;
-	substitute @num_year_1  @num_normal' by @num_year_1;
-	substitute @num_year_1  @num_0mod4'  by @num_year_1;
-	substitute @num_year_1  @num_1mod4'  by @num_year_1;
-	substitute @num_year_1  @num_2mod4'  by @num_year_1;
-	substitute @num_year_1  @num_3mod4'  by @num_year_1;
+	substitute @num_year_1 @num_normal' by @num_year_1;
+	substitute @num_year_1 @num_0mod4'  by @num_year_1;
+	substitute @num_year_1 @num_1mod4'  by @num_year_1;
+	substitute @num_year_1 @num_2mod4'  by @num_year_1;
+	substitute @num_year_1 @num_3mod4'  by @num_year_1;
 } replace_year;
 
 feature liga{
